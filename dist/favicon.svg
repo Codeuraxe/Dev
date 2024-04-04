@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+    <text x="5" y="95" font-family="Arial" font-size="80" fill="black" font-weight="normal">>_</text>
+    <style>
+        text { fill: #000; font-weight: normal; }
+        @media (prefers-color-scheme: dark) {
+            text { fill: #FFF; font-weight: normal; }
+        }
+    </style>
+</svg>

@@ -85,7 +85,7 @@ tags:
 
   <div class="content">
    <h2 class="titre-section-reduit">Compte-rendu d'activité</h2>
-  <a href="/assets/mediatekformation.pdf" target="_blank">Compte-rendu d'activité</a>
+  <a href="/assets/mediatekformation.pdf" target="_blank">lien Compte-rendu d'activité</a>
   </div>
   <h2 class="titre-section-reduit4">Bloc 1 : Services informatiques aux organisations</h2>
   <p class="titre-section-reduit3">Capacité à rendre compte d'un travail réalisé au sein d'une équipe projet en mettant clairement en évidence sa contribution personnelle.</p>

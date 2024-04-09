@@ -18,7 +18,7 @@ tags:
     Afin de donner plus d’attractivité aux médiathèques, MediaTek86 veut se développer selon deux axes :
     enrichir ses services en offrant aux adhérents la possibilité d’emprunter des films en VOD ;
     proposer, en complément de l’activité principale de la médiathèque, des formations aux outils numériques et des autoformations en ligne.<br>
-    <a href="/assets/cahier.pdf" target="_blank">Télécharger le contexte détaillé</a>
+    <a href="/assets/contexteFormation.pdf" target="_blank">Télécharger le contexte détaillé</a>
 </p>
   </div>
   <div class="section">
@@ -85,8 +85,8 @@ tags:
 
   <div class="content">
    <h2 class="titre-section-reduit">Compte-rendu d'activité</h2>
-  <a href="/assets/mediatekformation.pdf" target="_blank">Lien vers la documentation technique</a>
-  div>
+  <a href="/assets/mediatekformation.pdf" target="_blank">Compte-rendu d'activité</a>
+  </div>
   <h2 class="titre-section-reduit4">Bloc 1 : Services informatiques aux organisations</h2>
   <p class="titre-section-reduit3">Capacité à rendre compte d'un travail réalisé au sein d'une équipe projet en mettant clairement en évidence sa contribution personnelle.</p>
 

@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'biel-dev.online',
+    site: 'bilel-dev.online',
 });

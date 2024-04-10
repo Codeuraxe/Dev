@@ -56,7 +56,7 @@ tags:
 
   <h2 class="titre-section-reduit2">Accès au PV de recette</h2>
   <ul>
-    <li><a href="/assets/contexte.pdf" target="_blank">Télécharger le PV de recette</a></li> 
+    <li><a href="/assets/pvderecette2.pdf" target="_blank">Télécharger le PV de recette</a></li> 
   </ul>
   <h2 class="titre-section-reduit2">Accès au dépôt distant</h2>
   <ul>

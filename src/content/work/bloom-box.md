@@ -24,7 +24,9 @@ Afin de gérer le catalogue et les commandes de documents, MediaTek86 a confié 
   <div class="section">
     <h1 class="texte-reduit">Mission</h1>
     <p class="content">
-      Le chef de projet a contrôlé le travail du premier développeur et a constaté l'oubli de plusieurs fonctionnalités attendues dans le cahier des charges. Il m’a chargé de corriger ces problèmes, puis plusieurs autres missions m’ont été confiées (en particulier le back-office) pour finaliser et déployer le site.<br>
+      Le but de cet atelier est de faire évoluer une application de bureau (C#) exploitant une API REST (PHP) pour l'accès à une base de données relationnelle MySQL et qui permet de gérer les documents des médiathèques de la chaîne MediaTek86. Un premier développeur s'est occupé de la construction de la base de données et du développement de certaines fonctionnalités de l'application.
+
+Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs postes dans la médiathèque et accédant à la même base de données. Le but est d'y ajouter de nouvelles fonctionnalités pour réaliser la gestion du catalogue des médiathèques et des commandes de documents.<br>
       <a href="/assets/cahier.pdf" target="_blank">Télécharger le contrat de développement</a>
     </p>
   </div>

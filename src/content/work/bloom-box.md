@@ -84,12 +84,12 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
 
   <h2 class="titre-section-reduit2">Accès à la documentation</h2>
   <ul>
-    <li><a href="Documentation.chm" target="_blank">Lien vers la documentation chm</a></li> 
+    <li><a href="/assets/Documentation.chm" target="_blank">Lien vers la documentation chm</a></li> 
   </ul>
 </div>
 <h2 class="titre-section-reduit2">Accès à l'applicationInstallateur client lourd</h2>
   <ul>
-    <li><a href="MediaTekDocuments.zip" target="_blank">Installateur client lourd</a></li> 
+    <li><a href="/assets/MediaTekDocuments.zip" target="_blank">Installateur client lourd</a></li> 
   </ul>
 </div>
 <div class="content">

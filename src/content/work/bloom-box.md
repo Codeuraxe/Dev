@@ -1,5 +1,5 @@
 ---
-title: Mediatek86 - en cours d'édition 
+title: MediatekDocuments - en cours d'édition 
 publishDate: 2019-12-01 00:00:00
 img: /assets/mediatekdoc.PNG
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
@@ -35,10 +35,10 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
 <div class="content">
   <h1 class="texte-reduit">Outils et langages utilisés</h1>
   <ul>
-    <li><strong>IDE :</strong> Netbeans</li>
+    <li><strong>IDE :</strong> Visual Studio 2019</li>
     <li><strong>Serveur :</strong> WampServer</li>
-    <li><strong>Langages :</strong> PHP et Twig</li>
-    <li><strong>Framework :</strong> Symfony</li>
+    <li><strong>Langages :</strong> C#, PHP et SQL</li>
+    <li><strong>Base de données :</strong> MySQL</li>
   </ul>
 
 
@@ -48,32 +48,43 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
 
   <h2 class="titre-section-reduit2">Accès au cahier des charges</h2>
   <ul>
-    <li><a href="/assets/cahier2.pdf" target="_blank">Télécharger le cahier des charges</a></li>
+    <li><a href="/assets/cahierChargesAP3.pdf" target="_blank">Télécharger le cahier des charges</a></li>
   </ul>
 
   <h2 class="titre-section-reduit2">Accès au dossier documentaire</h2>
   <ul>
-    <li><a href="/assets/dossier.pdf" target="_blank">Télécharger le dossier documentaire</a></li>
+    <li><a href="/assets/dossierDocAP3.pdf" target="_blank">Télécharger le dossier documentaire</a></li>
   </ul>
 
   <h2 class="titre-section-reduit2">Accès au PV de recette</h2>
   <ul>
-    <li><a href="/assets/contexte.pdf" target="_blank">Télécharger le PV de recette</a></li> 
+    <li><a href="/assets/pvRecetteAP3 (1).pdf" target="_blank">Télécharger le PV de recette</a></li> 
+  </ul>
+  <h2 class="titre-section-reduit2">Accès au modèle MCD</h2>
+  <ul>
+    <li><a href="/assets/mediatekDocumentsBddMCD.png" target="_blank">Accès au modèle MCD</a></li> 
   </ul>
   <h2 class="titre-section-reduit2">Accès au dépôt distant</h2>
   <ul>
-    <li><a href="https://github.com/Codeuraxe/Kanban2" target="_blank">Lien vers le dépôt Github</a></li><p> En cas d'erreur, veuillez vous rendre sur <br> https://github.com/Codeuraxe puis repository</p>
+    <li><a href="https://github.com/Codeuraxe/MediatekDocuments" target="_blank">Accès au dépôt distant - C#</a></li><p> En cas d'erreur, veuillez vous rendre sur <br> https://github.com/Codeuraxe puis repository</p>
   </ul>
   </ul>
-
+<h2 class="titre-section-reduit2">Accès au dépôt distant - Api</h2>
+  <ul>
+    <li><a href="https://github.com/Codeuraxe/rest_mediatekdocuments" target="_blank">Accès au dépôt distant - Api</a></li>
+  </ul>
+  <h2 class="titre-section-reduit2">Accès à l'Api en ligne</h2>
+  <ul>
+    <li><a href="https://mediatek-documents.site/" target="_blank">Accès à l'Api en ligne</a></li>
+  </ul>
   <h2 class="titre-section-reduit2">Accès à la BDD en ligne</h2>
   <ul>
-    <li><a href="https://auth-db1179.hstgr.io/index.php?db=u695746505_mediatekbase" target="_blank">Lien vers la BDD en ligne</a></li>
+    <li><a href="https://hpanel.hostinger.com/redirect?l=phpMyAdmin&db_name=u731223545_mediatek&domain=mediatek-documents.site" target="_blank">Lien vers la BDD en ligne</a></li>
   </ul>
 
   <h2 class="titre-section-reduit2">Accès à la documentation</h2>
   <ul>
-    <li><a href="https://mega.nz/folder/QOFAlL6T#KZt2tqV0oJWrcE6WrUktpg" target="_blank">Lien vers la documentation technique</a></li> Télécharger le dossier puis ouvrer le index.html
+    <li><a href="Documentation.chm" target="_blank">Lien vers la documentation chm</a></li> 
   </ul>
 </div>
 <div class="content">

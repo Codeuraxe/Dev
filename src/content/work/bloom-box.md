@@ -153,42 +153,73 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
     <li>Développer son projet professionnel.</li>
   </ul>
 </div>
-
-<div>
-  <h2 class="titre-section-reduit4">Bloc 2: Compétences</h2>
-  
-  <h2 class="titre-section-reduit4">B2.1: Concevoir et développer une solution applicative</h2>
-  <ul class="titre-section-reduit3">
-    <li>Analyser un besoin exprimé et son contexte juridique.</li>
-    <li>Participer à la conception de l'architecture d'une solution applicative.</li>
-    <li>Modéliser une solution applicative.</li>
-    <li>Exploiter les ressources du cadre applicatif (framework).</li>
-    <li>Identifier, développer, utiliser ou adapter des composants logiciels.</li>
-    <li>Exploiter les technologies Web pour mettre en œuvre les échanges entre applications, y compris de mobilité.</li>
-    <li>Utiliser des composants d'accès aux données.</li>
-    <li>Intégrer en continu les versions d'une solution applicative.</li>
-    <li>Réaliser les tests nécessaires à la validation ou à la mise en production d'éléments adaptés ou développés.</li>
-    <li>Rédiger des documentations technique et d'utilisation d'une solution applicative.</li>
-    <li>Exploiter les fonctionnalités d'un environnement de développement et de tests.</li>
-  </ul>
-
-  <h2 class="titre-section-reduit4">B2.2: Assurer la maintenance corrective ou évolutive d'une solution applicative</h2>
-  <ul class="titre-section-reduit3">
-    <li>Recueillir, analyser et mettre à jour les informations sur une version d'une solution applicative.</li>
-    <li>Évaluer la qualité d'une solution applicative.</li>
-    <li>Analyser et corriger un dysfonctionnement.</li>
-    <li>Mettre à jour des documentations technique et d'utilisation d'une solution applicative.</li>
-    <li>Élaborer et réaliser les tests des éléments mis à jour.</li>
-  </ul>
-
-  <h2 class="titre-section-reduit4">B2.3: Gérer les données</h2>
-  <ul class="titre-section-reduit3">
-    <li>Exploiter des données à l'aide d'un langage de requêtes.</li>
-    <li>Développer des fonctionnalités applicatives au sein d'un système de gestion de base de données (relationnel ou non).</li>
-    <li>Concevoir ou adapter une base de données.</li>
-    <li>Administrer et déployer une base de données.</li>
-  </ul>
-</div>
+<div class="bloc">
+        <h2>Bloc 1 : Services informatiques aux organisations</h2>
+        <ul>
+            <li>Gérer le patrimoine informatique :
+                <ul>
+                    <li>Mettre en place et vérifier les niveaux d’habilitation associés à un service</li>
+                    <li>Gérer des sauvegardes</li>
+                </ul>
+            </li>
+            <li>Répondre aux incidents et aux demandes d’assistance et d’évolution :
+                <ul>
+                    <li>Traiter des demandes concernant les applications</li>
+                </ul>
+            </li>
+            <li>Développer la présence en ligne de l'organisation :
+                <ul>
+                    <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation</li>
+                </ul>
+            </li>
+            <li>Travailler en mode projet :
+                <ul>
+                    <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
+                    <li>Évaluer les indicateurs de suivi d’un projet et analyser les écarts</li>
+                    <li>Planifier les activités</li>
+                </ul>
+            </li>
+            <li>Mettre à disposition des utilisateurs un service informatique :
+                <ul>
+                    <li>Déployer un service</li>
+                    <li>Réaliser les tests d’intégration et d’acceptation d’un service</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="bloc">
+        <h2>Bloc 2 : Conception et développement d'applications</h2>
+        <ul>
+            <li>Concevoir et développer une solution applicative :
+                <ul>
+                    <li>Modéliser une solution applicative</li>
+                    <li>Exploiter les ressources du cadre applicatif (framework)</li>
+                    <li>Identifier, développer, utiliser ou adapter des composants logiciels</li>
+                    <li>Exploiter les technologies Web pour mettre en œuvre les échanges entre applications, y compris de mobilité</li>
+                    <li>Utiliser des composants d’accès aux données</li>
+                    <li>Intégrer en continu les versions d’une solution applicative</li>
+                    <li>Réaliser les tests nécessaires à la validation ou à la mise en production d’éléments adaptés ou développés</li>
+                    <li>Rédiger des documentations technique et d’utilisation d’une solution applicative</li>
+                </ul>
+            </li>
+            <li>Assurer la maintenance corrective ou évolutive d’une solution applicative :
+                <ul>
+                    <li>Recueillir, analyser et mettre à jour les informations sur une version d’une solution applicative</li>
+                    <li>Évaluer la qualité d’une solution applicative</li>
+                    <li>Analyser et corriger un dysfonctionnement</li>
+                    <li>Élaborer et réaliser les tests des éléments mis à jour</li>
+                </ul>
+            </li>
+            <li>Gérer les données :
+                <ul>
+                    <li>Exploiter des données à l’aide d’un langage de requêtes</li>
+                    <li>Concevoir ou adapter une base de données</li>
+                    <li>Développer des fonctionnalités applicatives au sein d’un système de gestion de base de données</li>
+                    <li>Administrer et déployer une base de données</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
 ---
 <style>

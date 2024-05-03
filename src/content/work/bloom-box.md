@@ -107,7 +107,7 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
   </div>
 
 <div class="bloc">
-        <h2>Bloc 1 : Services informatiques aux organisations</h2>
+        <h1>Bloc 1 : Services informatiques aux organisations</h1>
         <ul>
             <li>Gérer le patrimoine informatique :
                 <ul>
@@ -141,7 +141,7 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
         </ul>
     </div>
     <div class="bloc">
-        <h2>Bloc 2 : Conception et développement d'applications</h2>
+        <h1>Bloc 2 : Conception et développement d'applications</h1>
         <ul>
             <li>Concevoir et développer une solution applicative :
                 <ul>

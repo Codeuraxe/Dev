@@ -103,7 +103,7 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
 
   <div class="content">
    <h2 class="titre-section-reduit">Compte-rendu d'activité</h2>
-  <a href="" target="_blank">lien Compte-rendu d'activité</a>
+  <a href="/assets/compterendumediatekdocuments.pdf" target="_blank">lien Compte-rendu d'activité</a>
   </div>
 
 <div class="bloc">

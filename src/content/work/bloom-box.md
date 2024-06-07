@@ -98,7 +98,7 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
 
 <div class="content">
    <h2 class="titre-section-reduit2">Présentation vidéo de l'application</h2>
-   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=pF4WbKWJLrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+   <iframe width="560" height="315" src="https://youtu.be/pF4WbKWJLrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
   </div>
 
   <div class="content">

@@ -9,384 +9,510 @@ import CallToAction from '../components/CallToAction.astro';
 import Grid from '../components/Grid.astro';
 import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
-import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
-
-// Page section components
 import ContactCTA from '../components/ContactCTA.astro';
-import Skills from '../components/Skills.astro';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
-	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
-	.slice(0, 4);
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/basics/astro-components/
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+  .slice(0, 4);
 ---
 
 <BaseLayout>
-	<div class="stack gap-20 lg:gap-48">
-		<div class="wrapper stack gap-8 lg:gap-20">
-			<header class="hero">
-				<Hero
-					title="Bonjour, je m'appelle Bilel"
-					tagline="Je suis étudiant en BTS SIO - SLAM"
-					align="start"
-				>
-					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Développeur</Pill>
-						<Pill><Icon icon="code" size="1.33em" /> Back-End</Pill>
-						<Pill><Icon icon="code" size="1.33em" /> Front-End</Pill>
-					</div>
-				</Hero>
+  <div class="stack gap-20 lg:gap-48">
+    <div class="wrapper stack gap-8 lg:gap-20">
+      <header class="hero">
+        <Hero
+          title="Bonjour, je m'appelle Bilel"
+          tagline="Je suis étudiant en BTS SIO - SLAM"
+          align="start"
+        />
+      </header>
+    </div>
 
-				<img
-					alt="portrait"
-					width="480"
-					height="620"
-					src="/assets/portrait.gif"
-				/>
-			</header>
+    <div class="stack gap-20">
+      <main class="wrapper about">
+        <Hero title="À propos" />
 
-			<Skills />
-		</div>
-		<div class="stack gap-20">
-			<main class="wrapper about">
-				<Hero
-					title="A propos"
-					
-				>
-				</Hero>
-	
-				<section>
-					<h2 class="section-title">Présentation</h2>
-					<div class="content">
-						<p>
-							
+        <section>
+          <h2 class="section-title">Présentation</h2>
+          <div class="content">
+            <p>
+              Je suis actuellement étudiant en deuxième année de BTS SIO (Services Informatiques aux Organisations) avec une spécialisation en SLAM (Solutions Logicielles et Applications Métier), axée sur le développement d'applications informatiques.
+              En constante progression dans mes études, je vous invite à découvrir dans ce portfolio les diverses études et projets professionnels que j'ai entrepris au cours de mon parcours.
+            </p>
+          </div>
+        </section>
 
+        <section>
+          <h2 class="section-title">Projet professionnel</h2>
+          <div class="content">
+            <p>
+              Après l'obtention de mon BTS SIO, je souhaite m'orienter vers une carrière de développeur full-stack. Mon intérêt pour le développement web, couplé à mes compétences en développement front-end et back-end, me pousse à choisir cette voie.
+            </p>
+            <p><br/>
+              <strong>Objectifs à Court Terme:</strong>
+              <ul><br/>
+                <li>
+                  <span>Intégrer une Licence Professionnelle :</span> Je prévois de poursuivre mes études en Licence Professionnelle Développement Web et Mobile afin d'approfondir mes connaissances et de me spécialiser davantage.
+                </li>
+                <li>
+                  <span>Stage ou Alternance :</span> Rechercher une entreprise pour un stage ou une alternance dans le domaine du développement full-stack pour continuer à acquérir de l'expérience professionnelle et renforcer mes compétences pratiques.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </section>
 
-							Je suis actuellement étudiant en deuxième année de BTS SIO (Services Informatiques aux Organisations) avec une spécialisation en SLAM (Solutions Logicielles et Applications Métier), axée sur le développement d'applications informatiques.
-							En constante progression dans mes études, je vous invite à découvrir dans ce portfolio les diverses études et projets professionnels que j'ai entrepris au cours de mon parcours. 
-						</p>
-						</p>
-					</div>
-				</section>
-				<section>
-					<h2 class="section-title">Compétences</h2>
-					<div class="content">
-						<p>Développement web</p>
-						<br>
-						<span class="neon">
-							<p>HTML
-							<br>
-								CSS
-							<br>
-								JavaScript
-							<br>
-								Php - Framework Symfony
-							</p></span>
-							<br>
-							<p>Développement d'applications</p>
-							<br>
-							<span class="neon">
-								<p>C# - .NET Framework
-								<br>
-								REACT js - Node.js
-								<br>
-								Python
-								<br>
-								Java - Framework Spring & Maven
-								</p></span>
-								<br>
-							<p>Bases de données</p>
-							<br>
-							<span class="neon">
-								<p>SQL
-								<br>
-								SQL server
-								<br>
-								Wamp server
-								<br>
-								PostgreSQL
-								<br>
-								MongoDB
-								</p></span>
-					</div>
-					
-				</section>
-				<section>
-					<h2 class="section-title">Parcours Scolaire</h2>
-					<div class="content">
-						<p>2022-2024 : BTS Services informatiques aux organisations - Solutions logicielles et applications métiers</p>
-						<p>2020-2021 : BAC Sciences Économiques et Sociales & Numérique et SciencesInformatiques</p>
-					</div>
-				</section>
-				<section>
-					<h2 class="section-title">Parcours Professionnel</h2>
-					<div class="content">
-						<p>2023 : Stage 1ère année BTS SIO Centre Hospitalier de Vichy </p>
-						<p>Objectif du stage : 
-							Usage de GLPI avec inventaire physique du matériel de
-							l'établissement.
-							<br>
-							Découverte des fonctions support, administration système et
-							réseau, sécurité, RGPD.</p>
-						<p>2024 : Stage 2ème année BTS SIO Société Markodex</p>
-						<p>Objectif du stage : création d'un site web</p>
-						
-					</div>
-				</section>
-			</main>
-		<main class="wrapper stack gap-20 lg:gap-48">
-			<section class="section with-background with-cta">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Projets</h3>
-					<p>Découvrez ci-dessous mes projets les plus récents, reflétant mon apprentissage et mon évolution professionnelle.</p>
-				</header>
+        <section>
+          <h2 class="section-title">Parcours Scolaire</h2>
+          <div class="timeline">
+            <div class="timeline-container">
+              <div class="icon">🎓</div>
+              <div class="content">
+                <h2>BTS SIO</h2>
+                <p>2022 - 2024</p>
+                <p>BTS SIO - OPTION SLAM</p>
+                <p>CNED</p>
+              </div>
+            </div>
+            <div class="timeline-container">
+              <div class="icon">🎓</div>
+              <div class="content">
+                <h2>BAC GENERAL</h2>
+                <p>2020 - 2021</p>
+                <p>SES - OPTION NSI</p>
+                <p>Mention Bien</p>
+              </div>
+            </div>
+            <div class="timeline-container">
+              <div class="icon">🎓</div>
+              <div class="content">
+                <h2>COLLÈGE</h2>
+                <p>2017 - 2018</p>
+                <p>COLLÈGE JEAN ROSTAND (Bellerive-sur-Allier)</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-				<div class="gallery">
-					<Grid variant="offset">
-						{
-							projects.map((project) => (
-								<li>
-									<PortfolioPreview project={project} />
-								</li>
-							))
-						}
-					</Grid>
-				</div>
+        <section>
+          <h2 class="section-title">Parcours Professionnel</h2>
+          <div class="timeline">
+            <div class="timeline-container">
+              <div class="icon">💼</div>
+              <div class="content">
+                <h2>Stage 1ère année BTS SIO</h2>
+                <p>2023</p>
+                <p>Centre Hospitalier de Vichy</p>
+                <p>
+                  Objectif du stage : Usage de GLPI avec inventaire physique du matériel de l'établissement.<br />
+                  Découverte des fonctions support, administration système et réseau, sécurité, RGPD.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-container">
+              <div class="icon">💼</div>
+              <div class="content">
+                <h2>Stage 2ème année BTS SIO</h2>
+                <p>2024</p>
+                <p>Société Markodex</p>
+                <p>Objectif du stage : création d'un site web</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
 
-				<div class="cta">
-					<CallToAction href="/work/">
-						Voir tout
-						<Icon icon="arrow-right" size="1.2em" />
-					</CallToAction>
-				</div>
-			</section>
-		</main>
+      <section>
+        <h2 class="section-title">Compétences</h2>
+        <div class="content skills">
+          <div>
+            <h4>Développement web</h4><br />
+            <p>
+              HTML<br />
+              CSS<br />
+              JavaScript<br />
+              Php - Framework Symfony
+            </p>
+          </div>
+          <div>
+            <h4>Développement d'applications</h4><br />
+            <p>
+              C# - .NET Framework<br />
+              REACT js - Node.js<br />
+              Python<br />
+              Java - Framework Spring & Maven
+            </p>
+          </div>
+          <div>
+            <h4>Bases de données</h4><br />
+            <p>
+              SQL<br />
+              SQL server<br />
+              Wamp server<br />
+              PostgreSQL<br />
+              MongoDB
+            </p>
+          </div>
+        </div>
+      </section>
+	  
+      <main class="wrapper stack gap-20 lg:gap-48">
+        <section class="section with-background with-cta">
+          <header class="section-header stack gap-2 lg:gap-4">
+            <h3>Projets</h3>
+            <p>Découvrez ci-dessous mes projets les plus récents, reflétant mon apprentissage et mon évolution professionnelle.</p>
+          </header>
 
-		<ContactCTA />
-	</div>
+          <div class="gallery">
+            <Grid variant="offset">
+              {projects.map((project) => (
+                <li>
+                  <PortfolioPreview project={project} />
+                </li>
+              ))}
+            </Grid>
+          </div>
+
+          <div class="cta">
+            <CallToAction href="/work/">
+              Voir tout
+              <Icon icon="arrow-right" size="1.2em" />
+            </CallToAction>
+          </div>
+        </section>
+      </main>
+
+      <ContactCTA />
+    </div>
+  </div>
 </BaseLayout>
 
-<style>
-	.hero {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 2rem;
-	}
 
-	.roles {
-		display: none;
-	}
-
-	.hero img {
-		aspect-ratio: 5 / 4;
-		object-fit: cover;
-		object-position: top;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
-
-	@media (min-width: 50em) {
-		.hero {
-			display: grid;
-			grid-template-columns: 6fr 4fr;
-			padding-inline: 2.5rem;
-			gap: 3.75rem;
-		}
-
-		.roles {
-			margin-top: 0.5rem;
-			display: flex;
-			gap: 0.5rem;
-		}
-
-		.hero img {
-			aspect-ratio: 3 / 4;
-			border-radius: 4.5rem;
-			object-fit: cover;
-		}
-	}
-
-	/* ====================================================== */
-
-	.section {
-		display: grid;
-		gap: 2rem;
-	}
-
-	.with-background {
-		position: relative;
-	}
-
-	.with-background::before {
-		--hero-bg: var(--bg-image-subtle-2);
-
-		content: '';
-		position: absolute;
-		pointer-events: none;
-		left: 50%;
-		width: 100vw;
-		aspect-ratio: calc(2.25 / var(--bg-scale));
-		top: 0;
-		transform: translateY(-75%) translateX(-50%);
-		background:
-			url('/assets/backgrounds/noise.png') top center/220px repeat,
-			var(--hero-bg) center center / var(--bg-gradient-size) no-repeat,
-			var(--gray-999);
-		background-blend-mode: overlay, normal, normal, normal;
-		mix-blend-mode: var(--bg-blend-mode);
-		z-index: -1;
-	}
-
-	.with-background.bg-variant::before {
-		--hero-bg: var(--bg-image-subtle-1);
-	}
-
-	.section-header {
-		justify-self: center;
-		text-align: center;
-		max-width: 50ch;
-		font-size: var(--text-md);
-		color: var(--gray-300);
-	}
-
-	.section-header h3 {
-		font-size: var(--text-2xl);
-	}
-
-	@media (min-width: 50em) {
-		.section {
-			grid-template-columns: repeat(4, 1fr);
-			grid-template-areas: 'header header header header' 'gallery gallery gallery gallery';
-			gap: 5rem;
-		}
-
-		.section.with-cta {
-			grid-template-areas: 'header header header cta' 'gallery gallery gallery gallery';
-		}
-
-		.section-header {
-			grid-area: header;
-			font-size: var(--text-lg);
-		}
-
-		.section-header h3 {
-			font-size: var(--text-4xl);
-		}
-
-		.with-cta .section-header {
-			justify-self: flex-start;
-			text-align: left;
-		}
-
-		.gallery {
-			grid-area: gallery;
-		}
-
-		.cta {
-			grid-area: cta;
-		}
-	}
-
-	/* ====================================================== */
-
-	.mention-card {
-		display: flex;
-		height: 7rem;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		border: 1px solid var(--gray-800);
-		border-radius: 1.5rem;
-		color: var(--gray-300);
-		background: var(--gradient-subtle);
-		box-shadow: var(--shadow-sm);
-	}
-
-	@media (min-width: 50em) {
-		.mention-card {
-			border-radius: 1.5rem;
-			height: 9.5rem;
-		}
-	}
-</style>
 
 <style>
-	.about {
-		margin-top: -7rem;
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
-
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
-
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
-
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
-
-	.content {
-		grid-column: 2 / 4;
-	}
-
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
-
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
-
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
-
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
-
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
-	@keyframes neon-pulse {
-  0% {
-    text-shadow: 0 0 5px #6726ff, 0 0 10px #6726ff, 0 0 15px #6726ff, 0 0 20px #6726ff, 0 0 25px #6726ff, 0 0 30px #6726ff, 0 0 35px #6726ff;
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
-  50% {
-    text-shadow: none;
-  }
-  100% {
-    text-shadow: 0 0 5px #6726ff, 0 0 10px #6726ff, 0 0 15px #6726ff, 0 0 20px #6726ff, 0 0 25px #6726ff, 0 0 30px #6726ff, 0 0 35px #6726ff;
-  }
-}
 
-.neon {
-  animation: neon-pulse 3s infinite alternate; /* Animation pulsante */
-}
+  .roles {
+    display: none;
+  }
+
+  .hero img {
+    aspect-ratio: 5 / 4;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  @media (min-width: 50em) {
+    .hero {
+      display: grid;
+      grid-template-columns: 6fr 4fr;
+      padding-inline: 2.5rem;
+      gap: 3.75rem;
+    }
+
+    .roles {
+      margin-top: 0.5rem;
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .hero img {
+      aspect-ratio: 3 / 4;
+      border-radius: 4.5rem;
+      object-fit: cover;
+    }
+  }
+
+  .section {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .with-background {
+    position: relative;
+  }
+
+  .with-background::before {
+    --hero-bg: var(--bg-image-subtle-2);
+
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    left: 50%;
+    width: 100vw;
+    aspect-ratio: calc(2.25 / var(--bg-scale));
+    top: 0;
+    transform: translateY(-75%) translateX(-50%);
+    background:
+      url('/assets/backgrounds/noise.png') top center/220px repeat,
+      var(--hero-bg) center center / var(--bg-gradient-size) no-repeat,
+      var(--gray-999);
+    background-blend-mode: overlay, normal, normal, normal;
+    mix-blend-mode: var(--bg-blend-mode);
+    z-index: -1;
+  }
+
+  .with-background.bg-variant::before {
+    --hero-bg: var(--bg-image-subtle-1);
+  }
+
+  .section-header {
+    justify-self: center;
+    text-align: center;
+    max-width: 50ch;
+    font-size: var(--text-md);
+    color: var(--gray-300);
+  }
+
+  .section-header h3 {
+    font-size: var(--text-2xl);
+  }
+
+  @media (min-width: 50em) {
+    .section {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas: 'header header header header' 'gallery gallery gallery gallery';
+      gap: 5rem;
+    }
+
+    .section.with-cta {
+      grid-template-areas: 'header header header cta' 'gallery gallery gallery gallery';
+    }
+
+    .section-header {
+      grid-area: header;
+      font-size: var(--text-lg);
+    }
+
+    .section-header h3 {
+      font-size: var(--text-4xl);
+    }
+
+    .with-cta .section-header {
+      justify-self: flex-start;
+      text-align: left;
+    }
+
+    .gallery {
+      grid-area: gallery;
+    }
+
+    .cta {
+      grid-area: cta;
+    }
+  }
+
+  .mention-card {
+    display: flex;
+    height: 7rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--gray-800);
+    border-radius: 1.5rem;
+    color: var(--gray-300);
+    background: var(--gradient-subtle);
+    box-shadow: var(--shadow-sm);
+  }
+
+  @media (min-width: 50em) {
+    .mention-card {
+      border-radius: 1.5rem;
+      height: 9.5rem;
+    }
+  }
+
+  .about {
+    margin-top: -7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
+
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+    text-align: center;
+  }
+
+  .content {
+    grid-column: 2 / 4;
+    text-align: center;
+  }
+
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
+
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+
+    .skills {
+      flex-direction: row;
+      justify-content: center;
+      gap: 5rem;
+    }
+  }
+
+  @keyframes neon-pulse {
+    0% {
+      text-shadow: 0 0 5px #6726ff, 0 0 10px #6726ff, 0 0 15px #6726ff, 0 0 20px #6726ff, 0 0 25px #6726ff, 0 0 30px #6726ff, 0 0 35px #6726ff;
+    }
+    50% {
+      text-shadow: none;
+    }
+    100% {
+      text-shadow: 0 0 5px #6726ff, 0 0 10px #6726ff, 0 0 15px #6726ff, 0 0 20px #6726ff, 0 0 25px #6726ff, 0 0 30px #6726ff, 0 0 35px #6726ff;
+    }
+  }
+
+  .neon {
+    animation: neon-pulse 3s infinite alternate;
+  }
+
+  .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #6726ff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+  }
+
+  .timeline-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    right: -10px;
+    background-color: white;
+    border: 3px solid #6726ff;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .timeline-container .icon {
+    position: absolute;
+    left: -55px;
+    top: 0;
+    color: #6726ff;
+    font-size: 1.5rem;
+  }
+
+  .timeline-container .content {
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .timeline-container .content h2 {
+    margin-top: 0;
+    color: #6726ff;
+    font-size: 1.25rem;
+  }
+
+  .timeline-container .content p {
+    margin: 5px 0;
+    color: #333;
+    font-size: 0.875rem;
+  }
+
+  .right .content {
+    text-align: left;
+  }
+
+  @media screen and (max-width: 600px) {
+    .timeline::before {
+      left: 31px;
+    }
+
+    .timeline-container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+
+    .timeline-container::after {
+      left: 60px;
+    }
+
+    .timeline-container .icon {
+      left: -30px;
+    }
+
+    .right {
+      justify-content: flex-end;
+      text-align: right;
+    }
+  }
 </style>
-
-

@@ -1,5 +1,5 @@
 ---
-title: MediatekDocuments - en cours d'édition 
+title: MediatekDocuments 
 publishDate: 2019-12-01 00:00:00
 img: /assets/mediatekdoc.PNG
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
@@ -10,7 +10,6 @@ tags:
   - Branding
   - Backend
 ---
-
 
 <div class="container">
   <div class="section">
@@ -41,7 +40,6 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
     <li><strong>Base de données :</strong> MySQL</li>
   </ul>
 
-
 <div class="project-documents-section">
   <h2 class="titre-section-reduit">Documents du projet</h2>
   <p>Ci-dessous, les documents du projet à télécharger ou consulter :</p>
@@ -68,8 +66,7 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
   <ul>
     <li><a href="https://github.com/Codeuraxe/MediatekDocuments" target="_blank">Accès au dépôt distant - C#</a></li><p> En cas d'erreur, veuillez vous rendre sur <br> https://github.com/Codeuraxe puis repository</p>
   </ul>
-  </ul>
-<h2 class="titre-section-reduit2">Accès au dépôt distant - Api</h2>
+  <h2 class="titre-section-reduit2">Accès au dépôt distant - Api</h2>
   <ul>
     <li><a href="https://github.com/Codeuraxe/rest_mediatekdocuments" target="_blank">Accès au dépôt distant - Api</a></li>
   </ul>
@@ -98,7 +95,7 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
 
 <div class="content">
    <h2 class="titre-section-reduit2">Présentation vidéo de l'application</h2>
-   <iframe width="560" height="315" src="https://youtu.be/pF4WbKWJLrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/pF4WbKWJLrw?si=d-FUtawEiiJhbXbb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
   </div>
 
   <div class="content">
@@ -107,7 +104,7 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
   </div>
 
 <div class="bloc">
-        <h1>Bloc 1 : Services informatiques aux organisations</h1>
+        <h5>Bloc 1 : Services informatiques aux organisations</h5>
         <ul>
             <li>Gérer le patrimoine informatique :
                 <ul>
@@ -141,7 +138,7 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
         </ul>
     </div>
     <div class="bloc">
-        <h1>Bloc 2 : Conception et développement d'applications</h1>
+        <h5>Bloc 2 : Conception et développement d'applications</h5>
         <ul>
             <li>Concevoir et développer une solution applicative :
                 <ul>
@@ -174,7 +171,6 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
         </ul>
     </div>
 
----
 <style>
   .texte-reduit {
     font-size: 25px; /* Ajustez cette valeur selon vos besoins */
@@ -219,9 +215,3 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
   font-size: 10px; /* Taille de la police spécifiquement réduite pour ce titre */
 }
 </style>
-
-
-
-
-
-

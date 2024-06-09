@@ -4,7 +4,7 @@ publishDate: 2024-06-07 00:00:00
 img: /assets/marko.PNG
 img_alt: Image illustrative de la création de site web chez Markodex
 description: |
-création site web
+  Stage 
 tags:
   - Stage
   - Développement Web

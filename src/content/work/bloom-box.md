@@ -32,7 +32,7 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
 </div>
 
 <div class="content">
-  <h2 class="titre-section-reduit">Résumé des missions effectuées</h2>
+
   <div class="content">
     <h5>Mission 1 : Gérer les documents </h5>
     <p><strong>Ajout, modification et suppression des documents</strong> : 

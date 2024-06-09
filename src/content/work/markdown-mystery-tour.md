@@ -19,7 +19,7 @@ tags:
       <h5>Informations sur l'entreprise :</h5>
       <p><strong>Nom :</strong> Markodex</p>
       <p><strong>Spécialisation :</strong> Solutions de marquage industriel, étiquetage et traçabilité</p>
-      <p><strong>Localisation :</strong> Vichy, France</p>
+      <p><strong>Localisation :</strong> Ezanville, France</p>
     </div>
   </div>
 </div>
@@ -45,19 +45,10 @@ tags:
       <li>Développement et intégration de thèmes et plugins WordPress</li>
       <li>Optimisation SEO et mise en place des bonnes pratiques de référencement</li>
       <li>Tests et débogage du site web pour assurer sa fonctionnalité et sa performance</li>
-      <li>Formation des clients à l'utilisation de leur site WordPress</li>
     </ul>
   </p>
 </div>
 
-<div class="section hidden">
-  <h1 class="texte-reduit">Outils et langages utilisés</h1>
-  <ul>
-    <li><strong>CMS :</strong> WordPress</li>
-    <li><strong>Langages :</strong> HTML, CSS, JavaScript, PHP</li>
-    <li><strong>Outils :</strong> Visual Studio Code, Git</li>
-    <li><strong>Plugins :</strong> Yoast SEO, Elementor, WooCommerce</li>
-  </ul>
 </div>
 
 <div class="section hidden">

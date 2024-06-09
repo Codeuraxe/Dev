@@ -1,45 +1,52 @@
 ---
 title: "Veille Technologique"
-publishDate: "2024-06-07"
-img: "/assets/cyber.jpeg"
-img_alt: "Image illustrative de la création de site web chez Markodex"
 description: "Stage dans le secteur informatique chez Markodex"
+publishDate: "2024-06-07"
 tags:
   - Stage
   - Développement Web
   - WordPress
+img: "/assets/cyber.jpeg"
+img_alt: "Image illustrative de la création de site web chez Markodex"
 ---
 
 <div class="section hidden">
   <h2 class="titre-section-reduit">Veille Technologique</h2>
-  <p><strong>Qu'est-ce que la veille technologique ?</strong><br>
-  La veille technologique consiste à surveiller les évolutions techniques et les innovations dans un secteur d’activité. Elle inclut la collecte et la diffusion d’informations sur les changements en matière de recherche, développement, brevets, lancement de nouveaux produits, matériaux, processus, concepts, etc. Cela permet d’anticiper les impacts potentiels sur l’environnement et l’organisation.<br><br>
+  <p><strong>Qu'est-ce que la veille technologique ?</strong><br><br>
+  La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions techniques, les innovations dans un secteur d’activité donnée. La veille technologique comprend notamment la surveillance, la collecte, le partage et la diffusion d’informations permettant d’anticiper ou de s’informer sur des changements en matière de recherche, développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, innovation de fabrication, etc. Cela a pour but d’évaluer l’impact sur l’environnement et l’organisation.<br><br>
       
-  <strong>Les principaux outils de ma veille</strong><br>
-  J'ai effectué ma veille technologique grâce à des newsletters telles que Feedly, un agrégateur de flux RSS qui permet de suivre en temps réel les menaces émergentes dans le domaine de la cybersécurité. En plus des informations fournies par Feedly, j'utilise des newsletters spécifiques comme celle de Dark Reading et CyberScoop pour rester à jour sur les dernières actualités en cybersécurité. Je consulte également régulièrement des sites spécialisés comme Hitek.fr et Hardware.fr pour les dernières tendances en technologie.<br><br>
+  <strong>Les principaux outils de ma veille</strong><br><br>
+  J'ai effectué ma veille technologique grâce aux newsletters telles que Feedly, un agrégateur de flux RSS, et Openai.com. En plus des informations fournies chaque semaine/mois, j'ai quelques sites en favoris permettant de me tenir au courant des dernières actualités tels que Hitek.fr ou encore Hardware.fr, un site regroupant l'actualité sur les processeurs, les cartes graphiques, les cartes mères, etc.<br><br>
 
-  <strong>Sujet de ma veille</strong><br>
-  Pour ma veille technologique, j'ai choisi de traiter le sujet de la cybersécurité. Ma thématique est : Quels sont les enjeux et les innovations en cybersécurité ?<br><br>
+  <strong>Sujet de ma veille</strong><br><br>
+  Pour la veille technologique, j'ai décidé de traiter sur le sujet de l'IA. Ma thématique est : Quel est le futur de l'intelligence artificielle dans notre société ?<br><br>
+  Afin de répondre à cette thématique, ma veille se repose sur trois différents thèmes :<br><br>
 
-  Afin de répondre à cette thématique, ma veille se repose sur trois thèmes principaux :<br><br>
+  <strong>Thème 1 : Qu'est-ce que l’intelligence artificielle ?</strong><br><br>
+  - <strong>Une définition de l'intelligence artificielle ?</strong><br>
+    L’intelligence artificielle est une constellation de technologies différentes, qui fonctionnent de concert pour permettre aux machines de percevoir, de comprendre, d’agir et d’apprendre à des niveaux d’intelligence comparables à ceux des humains. Source : Accenture.<br><br>
 
-  <strong>Thème 1 : Qu'est-ce que la cybersécurité ?</strong><br>
-  La cybersécurité est la pratique consistant à protéger les systèmes, les réseaux et les programmes contre les attaques numériques visant à accéder, modifier ou détruire des informations sensibles, extorquer de l'argent aux utilisateurs ou interrompre les processus commerciaux normaux.<br>
-  Source : Kaspersky<br><br>
+  - <strong>Qu’est-ce que l’IA ?</strong><br><br>
+    En termes simples, l'IA, qui signifie « intelligence artificielle », désigne des systèmes ou des machines qui imitent l'intelligence humaine pour effectuer des tâches et qui peuvent s'améliorer de manière itérative en fonction des informations qu'ils recueillent. Source : Oracle.<br>
+    *Extrait supplémentaire :* "L’IA inclut des technologies telles que l'apprentissage automatique (machine learning) et le traitement du langage naturel (NLP). Source : TechTarget."<br><br>
 
-  <strong>Thème 2 : Les défis de la cybersécurité</strong><br>
-  Les cyberattaques deviennent de plus en plus complexes et difficiles à détecter. Les cybercriminels utilisent des techniques avancées pour contourner les défenses traditionnelles. Les cyberattaques peuvent avoir des conséquences dévastatrices pour les entreprises, notamment des pertes financières importantes, une atteinte à la réputation, et des interruptions de service.<br>
-  Source : Symantec<br><br>
+  <strong>Thème 2 : Faut-il avoir peur de l'intelligence artificielle ?</strong><br><br>
+  - <strong>L'intelligence artificielle utilisée à des fins malveillantes</strong><br><br>
+    Une vingtaine d’experts ont rédigé un rapport dans lequel ils présentent les risques liés à l’intelligence artificielle. Selon le texte, le plus alarmant serait que la technologie tombe entre de mauvaises mains. Source : Numerama.<br>
+    *Extrait supplémentaire :* "Les experts soulignent que des systèmes d'IA peuvent être détournés pour des cyberattaques, l'espionnage et d'autres activités criminelles. Source : MIT Technology Review."<br><br>
 
-  <strong>Thème 3 : Innovations en cybersécurité</strong><br>
-  L'IA et l'apprentissage automatique jouent un rôle de plus en plus important dans la cybersécurité. Ces technologies permettent d'analyser rapidement de grandes quantités de données pour détecter des comportements suspects et identifier des menaces potentielles en temps réel.<br>
-  Source : McAfee<br><br>
+  - <strong>L'intelligence artificielle peut surpasser l'humain</strong><br><br>
+    Digitalisation, intelligence artificielle (IA), robots performants, on pourrait croire à la fin de l’emploi humain. Source : Les Echos.<br>
+    *Extrait supplémentaire :* "Certains experts prédisent que l'automatisation pourrait supprimer certains emplois tout en en créant de nouveaux, souvent plus qualifiés. Source : World Economic Forum."<br><br>
 
-  La technologie blockchain offre une méthode sécurisée et transparente pour réaliser des transactions. Elle est de plus en plus utilisée pour renforcer la sécurité des données et prévenir les fraudes dans diverses industries.<br>
-  Source : Deloitte<br><br>
+  <strong>Thème 3 : Pourquoi l'intelligence artificielle peut être bénéfique pour tous ?</strong><br><br>
+  - <strong>Solutions d’IA pour la cybersécurité</strong><br><br>
+    Les technologies d’IA telles que l’apprentissage automatique et le traitement automatique du langage naturel fournissent rapidement les moyens nécessaires pour identifier les menaces réelles et réduire considérablement les temps de réponse. Source : IBM.<br>
+    *Extrait supplémentaire :* "L'IA permet une analyse proactive des menaces, ce qui renforce les défenses des systèmes informatiques. Source : Kaspersky."<br><br>
 
-  <strong>Conclusion</strong><br>
-  La veille technologique en cybersécurité permet de rester informé sur les dernières menaces et innovations dans ce domaine crucial. En suivant les évolutions et en adoptant de nouvelles technologies, les entreprises peuvent mieux se protéger contre les cyberattaques et garantir la sécurité de leurs informations sensibles.
+  - <strong>L'intelligence artificielle dans les voitures connectées</strong><br><br>
+    Nous développons et déployons des solutions favorisant l'autonomie à grande échelle dans les véhicules, les robots, etc. Source : TESLA.<br>
+    *Extrait supplémentaire :* "L'objectif est d'améliorer la sécurité routière et de réduire les accidents grâce à des systèmes d'assistance avancés. Source : Nvidia."<br><br>
 </div>
 
 <style>

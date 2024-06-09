@@ -32,6 +32,76 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
 </div>
 
 <div class="content">
+  <h2 class="titre-section-reduit">Résumé des missions effectuées</h2>
+  <div class="content">
+    <h5>Mission 1 : Gérer les documents </h5>
+    <p><strong>Ajout, modification et suppression des documents</strong> : 
+      J'ai développé des fonctionnalités permettant d'ajouter, modifier et supprimer des livres, des DVD et des revues. J'ai mis en place des conditions pour s'assurer que la suppression d'un document n'est possible que s'il n'est pas lié à une commande en cours.
+    </p>
+  </div>
+
+  <div class="content">
+    <h5>Mission 2 : Gérer les commandes </h5>
+    <p><strong>Gérer les commandes de livres ou de DVD </strong> : 
+      J'ai créé une interface permettant de gérer les différentes étapes des commandes (enregistrement, réception, livraison, paiement). J'ai automatisé l'ajout des exemplaires commandés dans la base de données.
+    </p>
+    <p><strong>Gérer les commandes de revues </strong> : 
+      J'ai développé une fonctionnalité permettant de gérer les commandes de revues, incluant la réalisation d'abonnements et leur renouvellement automatique. J'ai mis en place une interface pour afficher les revues commandées et gérer les renouvellements.
+    </p>
+  </div>
+
+  <div class="content">
+    <h5>Mission 3 : Gérer le suivi de l'état des exemplaires </h5>
+    <p><strong>Suivi de l'état des exemplaires</strong> : 
+      J'ai développé une fonctionnalité pour suivre l'état des documents physiques, incluant les livres, les DVD et les revues. J'ai créé des listes pour gérer les états tels que "neuf", "usagé", "détérioré", et "inutilisable".
+    </p>
+  </div>
+
+  <div class="content">
+    <h5>Mission 4 : Mettre en place des authentifications </h5>
+    <p><strong>Authentification et gestion des droits d'accès</strong> : 
+      J'ai mis en place un système d'authentification pour gérer les différents niveaux d'accès selon les rôles (administrateurs, employés). J'ai intégré Keycloak pour gérer l'accès des utilisateurs et restreindre certaines fonctionnalités aux administrateurs uniquement.
+    </p>
+  </div>
+
+  <div class="content">
+    <h5>Mission 5 : Assurer la sécurité, la qualité et intégrer des logs </h5>
+    <p><strong>Corriger les problèmes de sécurité </strong> : 
+      J'ai identifié et corrigé les problèmes de sécurité dans le code, notamment la sécurisation des appels à l'API. J'ai mis en place des procédures pour valider et accepter les correctifs via des pull requests.
+    </p>
+    <p><strong>Contrôler la qualité </strong> : 
+      J'ai utilisé SonarQube pour effectuer une analyse statique du code et identifier les problèmes de qualité. J'ai résolu les issues détectées par SonarQube.
+    </p>
+    <p><strong>Intégrer des logs </strong> : 
+      J'ai enregistré les actions et les erreurs dans des fichiers de logs pour faciliter le suivi et le diagnostic des problèmes.
+    </p>
+  </div>
+
+  <div class="content">
+    <h5>Mission 6 : Tester et documenter </h5>
+    <p><strong>Gérer les tests </strong> : 
+      J'ai réalisé des tests unitaires et fonctionnels pour vérifier le bon fonctionnement des classes du package Model et des interfaces utilisateur. J'ai utilisé Postman pour tester les fonctionnalités de l'API REST.
+    </p>
+    <p><strong>Créer les documentations techniques </strong> : 
+      J'ai généré les documentations techniques pour l'application C# et l'API REST.
+    </p>
+    <p><strong>Créer la documentation utilisateur en vidéo </strong> : 
+      J'ai créé une vidéo de présentation des fonctionnalités de l'application, d'une durée maximale de 10 minutes.
+    </p>
+  </div>
+
+  <div class="content">
+    <h5>Mission 7 : Déployer et gérer les sauvegardes des données </h5>
+    <p><strong>Déployer le projet </strong> : 
+      J'ai déployé l'API et la base de données chez un hébergeur. J'ai créé un installateur pour l'application C# afin de faciliter son installation.
+    </p>
+    <p><strong>Gérer les sauvegardes des données </strong> : 
+      J'ai automatisé les tâches de sauvegarde quotidienne de la base de données pour garantir la sécurité des données.
+    </p>
+  </div>
+</div>
+
+<div class="content">
   <h1 class="texte-reduit">Outils et langages utilisés</h1>
   <ul>
     <li><strong>IDE :</strong> Visual Studio 2019</li>

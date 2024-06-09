@@ -1,26 +1,27 @@
 ---
 title: Mediatek Formation
-publishDate: 2020-03-04 00:00:00
-img: /assets/mediatekformation.jpg
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
-description: |
- Projet Symfony
+description: Projet Symfony
+publishDate: 2020-03-04
 tags:
   - Dev
   - PHP
   - TWIG
+img: /assets/mediatekformation.jpg
+img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 ---
+
 <a href="https://mediatekformation.online/" target="_blank">Lien vers l'application en ligne</a>
+
 <div class="container">
   <div class="section">
-  <h2 class="titre-section-reduit">Contexte</h2>
-    <p>MediaTek86 a pour rôle de fédérer les prêts de livres, DVD et CD et de développer la médiathèque numérique pour l’ensemble des médiathèques du département.
-    Afin de donner plus d’attractivité aux médiathèques, MediaTek86 veut se développer selon deux axes :
+    <h2 class="titre-section-reduit">Contexte</h2>
+    <p>MediaTek86 a pour rôle de fédérer les prêts de livres, DVD et CD et de développer la médiathèque numérique pour l’ensemble des médiathèques du département. Afin de donner plus d’attractivité aux médiathèques, MediaTek86 veut se développer selon deux axes :
     enrichir ses services en offrant aux adhérents la possibilité d’emprunter des films en VOD ;
     proposer, en complément de l’activité principale de la médiathèque, des formations aux outils numériques et des autoformations en ligne.<br>
     <a href="/assets/contexteFormation.pdf" target="_blank">Télécharger le contexte détaillé</a>
-</p>
+    </p>
   </div>
+  
   <div class="section">
     <h1 class="texte-reduit">Mission</h1>
     <p class="content">
@@ -31,6 +32,46 @@ tags:
 </div>
 
 <div class="content">
+  <h1 class="texte-reduit">Mission 1 : Nettoyer le code existant et ajouter une fonctionnalité</h1>
+  <p>Nettoyer le code :<br><br>
+  J'ai nettoyé le code en suivant les indications de SonarLint pour améliorer la qualité du code et respecter les bonnes pratiques.</p>
+  <p>Ajouter une fonctionnalité :<br><br>
+  J'ai ajouté une colonne pour afficher le nombre de formations par playlist et implémenté un tri croissant et décroissant sur cette colonne.</p>
+</div>
+
+<div class="content">
+  <h1 class="texte-reduit">Mission 2 : Coder la partie back office</h1>
+  <p><strong>Gérer les formations</strong><br><br>
+  J'ai développé une interface pour lister, ajouter, modifier et supprimer des formations. J'ai intégré des contrôles de saisie, une confirmation avant suppression et la synchronisation des formations avec les playlists.</p>
+  <p>Gérer les playlists<br><br>
+  J'ai créé une page pour lister, ajouter, modifier et supprimer des playlists, avec des contrôles pour éviter la suppression de playlists associées à des formations. J'ai également ajouté des tris et filtres cohérents avec le front office.</p>
+  <p>Gérer les catégories<br><br>
+  J'ai développé une interface pour lister, ajouter et supprimer des catégories, avec des vérifications pour éviter la suppression de catégories associées à des formations et un mini-formulaire pour ajouter des catégories.</p>
+  <p>Ajouter l'accès avec authentification<br><br>
+  J'ai sécurisé le back office en mettant en place une authentification via Keycloak, restreignant l'accès à un administrateur et ajoutant une fonctionnalité de déconnexion sur toutes les pages.</p>
+</div>
+
+<div class="content">
+  <h1 class="texte-reduit"><strong>Mission 3 : Tester et documenter</strong></h1>
+  <p><strong>Gérer les tests</strong><br><br>
+  J'ai réalisé des tests unitaires, des tests d'intégration et des tests fonctionnels pour vérifier les règles de validation, l'accès aux fonctionnalités, et la compatibilité des navigateurs (avec Selenium).</p>
+  <p>Créer la documentation technique<br><br>
+  J'ai généré la documentation technique pour l'ensemble de l'application, expliquant les fonctionnalités et l'architecture.</p>
+  <p>Créer la documentation utilisateur<br><br>
+  J'ai créé une vidéo de 5 minutes présentant l'ensemble des fonctionnalités de l'application.</p>
+</div>
+
+<div class="content">
+  <h1 class="texte-reduit"><strong>Mission 4 : Déployer le site</strong> et gérer le déploiement continu</h1>
+  <p><strong>Déployer le site</strong><br><br>
+  J'ai déployé le site chez un hébergeur ainsi que le serveur d'authentification Keycloak dans une VM en ligne.</p>
+  <p>Gérer la sauvegarde et la restauration de la BDD<br><br>
+  J'ai automatisé la tâche de sauvegarde quotidienne de la base de données et mis en place une procédure de restauration.</p>
+  <p>Mettre en place le déploiement continu<br><br>
+  J'ai créé un script dans GitHub pour gérer le déploiement continu, assurant que les mises à jour du code soient déployées automatiquement.</p>
+</div>
+
+<div class="content">
   <h1 class="texte-reduit">Outils et langages utilisés</h1>
   <ul>
     <li><strong>IDE :</strong> Netbeans</li>
@@ -38,55 +79,53 @@ tags:
     <li><strong>Langages :</strong> PHP et Twig</li>
     <li><strong>Framework :</strong> Symfony</li>
   </ul>
-
+</div>
 
 <div class="project-documents-section">
   <h2 class="titre-section-reduit">Documents du projet</h2>
   <p>Ci-dessous, les documents du projet à télécharger ou consulter :</p>
-
   <h2 class="titre-section-reduit2">Accès au cahier des charges</h2>
   <ul>
     <li><a href="/assets/cahier2.pdf" target="_blank">Télécharger le cahier des charges</a></li>
   </ul>
-
   <h2 class="titre-section-reduit2">Accès au dossier documentaire</h2>
   <ul>
     <li><a href="/assets/dossier.pdf" target="_blank">Télécharger le dossier documentaire</a></li>
   </ul>
-
   <h2 class="titre-section-reduit2">Accès au PV de recette</h2>
   <ul>
-    <li><a href="/assets/pvderecette2.pdf" target="_blank">Télécharger le PV de recette</a></li> 
+    <li><a href="/assets/pvderecette2.pdf" target="_blank">Télécharger le PV de recette</a></li>
   </ul>
   <h2 class="titre-section-reduit2">Accès au dépôt distant</h2>
   <ul>
-    <li><a href="https://github.com/Codeuraxe/Kanban2" target="_blank">Lien vers le dépôt Github</a></li><p> En cas d'erreur, veuillez vous rendre sur <br> https://github.com/Codeuraxe puis repository</p>
+    <li><a href="https://github.com/Codeuraxe/Kanban2" target="_blank">Lien vers le dépôt Github</a></li>
+    <p> En cas d'erreur, veuillez vous rendre sur <br> https://github.com/Codeuraxe puis repository</p>
   </ul>
-  </ul>
-
   <h2 class="titre-section-reduit2">Accès à la BDD en ligne</h2>
   <ul>
     <li><a href="https://auth-db1179.hstgr.io/index.php?db=u695746505_mediatekbase" target="_blank">Lien vers la BDD en ligne</a></li>
   </ul>
-
   <h2 class="titre-section-reduit2">Accès à la documentation</h2>
   <ul>
-    <li><a href="https://mega.nz/folder/QOFAlL6T#KZt2tqV0oJWrcE6WrUktpg" target="_blank">Lien vers la documentation technique</a></li> Télécharger le dossier puis ouvrer le index.html
+    <li><a href="https://mega.nz/folder/QOFAlL6T#KZt2tqV0oJWrcE6WrUktpg" target="_blank">Lien vers la documentation technique</a></li>
   </ul>
 </div>
+
 <div class="content">
-   <h2 class="titre-section-reduit">Documentation Utilisateur</h2>
+  <h2 class="titre-section-reduit">Documentation Utilisateur</h2>
 </div>
 
 <div class="content">
-   <h2 class="titre-section-reduit2">Présentation vidéo de l'application</h2>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/pv2BTnJchmM?si=o7XcmzuV1sPFD0mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
-  </div>
+  <h2 class="titre-section-reduit2">Présentation vidéo de l'application</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pv2BTnJchmM?si=o7XcmzuV1sPFD0mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+</div>
 
-  <div class="content">
-   <h2 class="titre-section-reduit">Compte-rendu d'activité</h2>
-  <a href="/assets/mediatekformation.pdf" target="_blank">lien Compte-rendu d'activité</a>
-  </div>
+<div class="content">
+  <h2 class="titre-section-reduit">Compte-rendu d'activité</h2>
+  <a href="/assets/mediatekformation.pdf" target="_blank">Lien Compte-rendu d'activité</a>
+</div>
+
+<div class="content">
   <h2 class="titre-section-reduit4">Bloc 1 : Services informatiques aux organisations</h2>
   <p class="titre-section-reduit3">Capacité à rendre compte d'un travail réalisé au sein d'une équipe projet en mettant clairement en évidence sa contribution personnelle.</p>
 
@@ -172,7 +211,6 @@ tags:
   </ul>
 </div>
 
----
 <style>
   .texte-reduit {
     font-size: 25px; /* Ajustez cette valeur selon vos besoins */
@@ -217,6 +255,3 @@ tags:
   font-size: 10px; /* Taille de la police spécifiquement réduite pour ce titre */
 }
 </style>
-
-
-

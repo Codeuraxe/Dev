@@ -78,10 +78,7 @@ Il s'agit d'une application de bureau, prévue d'être installée sur plusieurs 
   </div>
 
   <div class="content">
-    <h5>Mission 6 : Tester et documenter </h5>
-    <p><strong>Gérer les tests </strong> : 
-      J'ai réalisé des tests unitaires et fonctionnels pour vérifier le bon fonctionnement des classes du package Model et des interfaces utilisateur. J'ai utilisé Postman pour tester les fonctionnalités de l'API REST.
-    </p>
+    <h5>Mission 6 : documenter </h5>
     <p><strong>Créer les documentations techniques </strong> : 
       J'ai généré les documentations techniques pour l'application C# et l'API REST.
     </p>
